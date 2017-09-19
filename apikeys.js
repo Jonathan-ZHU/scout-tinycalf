@@ -1,6 +1,6 @@
 exports.okcoin = {
-  apikey:"ec7e8719-d39f-468c-b473-6abd8bf8c0d2",
-  secret:"3F5A4B381253184BB3EE65E8FF038018"
+  apikey:"911ab768-0070-415c-8770-492b6371768c",
+  secret:"19C4EAEC12F68DA3573BD36BDF83A012"
 };
 
 exports.coinbase = {

@@ -1,3 +1,10 @@
+/*jshint esversion: 6 */
+
+/*
+单元测试
+*/
+
+
 var okcoin = require('okcoinapi-tinycalf');
 var expect = require('chai').expect;
 
