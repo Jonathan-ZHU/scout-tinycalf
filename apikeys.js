@@ -7,3 +7,8 @@ exports.coinbase = {
   apikey:"hrvXwwxuiDmFJffG",
   secret:"44vJuqU2Mp4MhAZTcxClQmdMe8lGVjns"
 };
+
+exports.bitfinex = {
+  apikey:"7tvoYnXVmuqnp5HyqFjKFsjXpSi16PV5yeMAU7plMsj",
+  secret:"4RF0htlD41OkSBW1CNLkx2AoTurO95MOgBQX9ZMlmp8"
+};
