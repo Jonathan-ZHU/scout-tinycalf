@@ -21,9 +21,15 @@
 // },3000)
 
 
-var prt = require("./lib/printlog.js");
+// var prt = require("./lib/printlog.js");
+//
+// prt.log("im log");
+// prt.err("im err");
+// prt.info("im info");
+// prt.warn("im warn");
 
-prt.log("im log");
-prt.err("im err");
-prt.info("im info");
-prt.warn("im warn");
+
+var Bxthai = require("bxthai");
+var bxthai = new Bxthai();
+
+bxthai.ticker(console.log);
