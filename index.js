@@ -18,8 +18,20 @@ app.get('/getticker',function(req,res){
   res.send(ticker.getAll());
 });
 
-app.get('/getkline',function(req,res){
-  ticker.getKline(function(err,ret){
+app.get('/getbtckline',function(req,res){
+  ticker.getBTCKline(function(err,ret){
+    res.send(ret);
+  })
+});
+
+app.get('/getltckline',function(req,res){
+  ticker.getLTCKline(function(err,ret){
+    res.send(ret);
+  })
+});
+
+app.get('/getethkline',function(req,res){
+  ticker.getETHKline(function(err,ret){
     res.send(ret);
   })
 });
