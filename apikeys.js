@@ -12,3 +12,8 @@ exports.bitfinex = {
   apikey:"7tvoYnXVmuqnp5HyqFjKFsjXpSi16PV5yeMAU7plMsj",
   secret:"4RF0htlD41OkSBW1CNLkx2AoTurO95MOgBQX9ZMlmp8"
 };
+
+exports.bxthai = {
+  apikey:"ea39f29fa165",
+  secret:"463957a03598"
+}
