@@ -29,7 +29,30 @@
 // prt.warn("im warn");
 
 
-var Bxthai = require("bxthai");
-var bxthai = new Bxthai();
+// var Bxthai = require("bxthai");
+// var bxthai = new Bxthai();
+//
+// bxthai.ticker(console.log);
 
-bxthai.ticker(console.log);
+// var clients = require("./lib/clients.js");
+// var coincheck = clients.coincheck;
+//
+// var params = {
+//   data:{
+//     pair: 'btc_jpy',
+//   },
+//   options: {
+//       success: function(data, response, params) {
+//           console.log('success', data);
+//       },
+//       error: function(error, response, params) {
+//           console.log('error', error);
+//       }
+//   }
+// };
+// coincheck.ticker.all(params);
+
+var ticker = require("./lib/ticker.js");
+setInterval(function(){
+  console.log(ticker.getAll());
+},3000);

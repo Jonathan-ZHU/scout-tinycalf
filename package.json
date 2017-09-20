@@ -10,9 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "bitfinexapi-tinycalf": "0.0.1",
+    "bittrex-wrapper": "^1.0.3",
     "bxthai": "^0.1.5",
     "coinbase": "^2.0.6",
+    "coincheck": "^0.1.2",
     "colors": "^1.1.2",
+    "express": "^4.15.4",
     "okcoinapi-tinycalf": "0.0.3",
     "usdcny": "^1.0.2"
   },

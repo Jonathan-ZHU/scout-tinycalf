@@ -13,7 +13,12 @@ exports.bitfinex = {
   secret:"4RF0htlD41OkSBW1CNLkx2AoTurO95MOgBQX9ZMlmp8"
 };
 
+exports.coincheck = {
+  apikey:"54icRIaKhTA-aA_m",
+  secret:"LFBBvwI-HWt0MTHQP_FGy4vjKHmoXM6H"
+};
+
 exports.bxthai = {
   apikey:"ea39f29fa165",
   secret:"463957a03598"
-}
+};
