@@ -13,9 +13,17 @@
 //
 // console.log(apikeys.okcoin.apikey);
 
-var rate = require("./lib/rate.js");
-rate.startSync();
+// var rate = require("./lib/rate.js");
+// rate.startSync();
+//
+// setInterval(function(){
+//   console.log(rate.getRate());
+// },3000)
 
-setInterval(function(){
-  console.log(rate.getRate());
-},3000)
+
+var prt = require("./lib/printlog.js");
+
+prt.log("im log");
+prt.err("im err");
+prt.info("im info");
+prt.warn("im warn");

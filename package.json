@@ -11,6 +11,7 @@
   "dependencies": {
     "bitfinexapi-tinycalf": "0.0.1",
     "coinbase": "^2.0.6",
+    "colors": "^1.1.2",
     "okcoinapi-tinycalf": "0.0.3",
     "usdcny": "^1.0.2"
   },
