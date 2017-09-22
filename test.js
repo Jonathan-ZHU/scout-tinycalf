@@ -52,7 +52,7 @@
 // };
 // coincheck.ticker.all(params);
 
-var ticker = require("./lib/ticker.js");
-setInterval(function(){
-  console.log(ticker.getAll());
-},3000);
+// var ticker = require("./lib/ticker.js");
+// setInterval(function(){
+//   console.log(ticker.getAll());
+// },3000);
